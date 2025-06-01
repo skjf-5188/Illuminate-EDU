@@ -1,3 +1,8 @@
+@font-face {
+    src: url('xarrovv-font-3-big/Xarrovv.otf'); 
+    font-family: Xarrov;
+} 
+
 header{
     h1{
         display: none;

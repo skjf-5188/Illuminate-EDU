@@ -1,0 +1,166 @@
+header{
+    h1{
+        display: none;
+    }
+    img{
+        width: 20%;
+        height: auto; 
+
+        border-radius: 50%;
+        object-fit: cover;
+
+        position: fixed;
+        bottom: 10px;
+        right: 10px; 
+        z-index: 1000;
+
+        background-color: #F6C57B; 
+        box-shadow: 0 0 20px 5px #fada77;
+    }
+    nav{
+        ul{
+           
+            li{
+                a{
+                    display: none; 
+                }
+            }
+        }
+    }
+}
+
+main{
+    h2{
+        margin-top: 10%;
+    }
+
+    .hero{
+        display: grid;
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        place-items: center;
+        .top{
+            grid-area: 1/1;
+        }
+        .overlay{
+            grid-area: 1/1;
+            font-size: 10em;
+            position: absolute;
+            transform: translate(-50%, -150%);
+            top: 20%;
+            left: 50%;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            font-family: SmoothMarker;
+            color: #E98585;
+        }
+        .bottom{
+            grid-area: 1/1;
+            z-index: 20;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            border-radius: 50px;
+        }
+    }
+
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .box{
+            background-color: #F6C57B;
+            border-radius: 10px;
+            font-size: 3em;
+            text-align: center;
+            h4{
+                text-decoration: underline;
+            }
+            button{
+                background-color: #FADA77;
+                border-style: none;
+                border-radius: 10px;
+                color: black;
+                font-size: 1em;
+                padding: 10px;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+
+    .about{
+        font-size: 25px;
+        text-align: justify;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .aboutText{
+            flex-direction: column;
+        }
+        img{
+            width: 100%;
+            height: fit-content;
+            border-radius: 50px;
+        } 
+        p{
+            color:#2E353E;
+            padding: 5%;
+            font-size: 2em;
+            line-height: 1.6;
+        }
+        .people{
+            img{
+                width: auto;
+                height: auto;
+            }
+            font-size: 30px;
+            flex-direction: column;
+        }
+    }
+
+    .ourProjects{
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .pContent{
+            font-size: 40px;
+            text-align: justify;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #race{
+            flex-direction: column-reverse;
+        }
+    }
+
+    .joinBox{
+        margin-top: 10%;
+        text-align: center;
+        font-size: 190%;
+        buttons{
+            display: flex;
+            flex-direction: column;
+        }
+        socials{
+            padding: 10%;
+            display: flex;
+            flex-direction: column;
+            a{
+                padding: 30%;
+                i{
+                    width: 150%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

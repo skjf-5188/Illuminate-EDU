@@ -2,6 +2,10 @@
     src: url('xarrovv-font-3-big/Xarrovv.ttf'); 
     font-family: Xarrov;
 } 
+@font-face {
+    font-family: SmoothMarker;
+    src: url('smooth-marker-font/SmoothMarker-45d6.ttf');
+}
 
 body, html{
     margin: 10px;

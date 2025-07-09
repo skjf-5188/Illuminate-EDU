@@ -134,7 +134,7 @@ main{
         }
         img{
             width: 30%;
-            height: fit-content;
+            height: auto;
             border-radius: 50px;
         }
         p{
@@ -161,7 +161,7 @@ main{
         font-size: 150%;
         img{
             width: 30%;
-            height: fit-content;
+            height: auto;
             border-radius: 50px;
             margin: 15px;
         }

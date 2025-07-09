@@ -1,7 +1,11 @@
 @font-face {
-    src: url('xarrovv-font-3-big/Xarrovv.otf'); 
+    src: url('xarrovv-font-3-big/Xarrovv.ttf'); 
     font-family: Xarrov;
 } 
+@font-face {
+    font-family: SmoothMarker;
+    src: url('smooth-marker-font/SmoothMarker-45d6.ttf');
+}
 
 header{
     h1{
